@@ -63,7 +63,6 @@ function movecouser() {
       scale: 1,
       opacity: 1,
     });
-    
   });
   page1.addEventListener("mouseleave", function () {
     gsap.to(curser, {
