@@ -496,3 +496,142 @@ body {
   position: relative;
   background-color:#FAF8F3;
 }
+
+@media (max-width: 600px) {
+  html, body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  .page1,
+  .page2,
+  .page3,
+  .page4,
+  .page5,
+  .page6,
+  .page7,
+  .page8 {
+    padding: 6vw 2vw;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .nav {
+    flex-direction: column;
+    padding: 4vw 2vw;
+    gap: 2vw;
+  }
+  .nav h3, .nav h4 {
+    font-size: 4vw;
+  }
+
+  .page1-text h1 {
+    font-size: 16vw;
+    line-height: 14vw;
+    text-align: center;
+  }
+
+  .menudev ul {
+    left: 0;
+    gap: 2vw;
+    align-items: center;
+  }
+  .menudev ul li a {
+    font-size: 7vw;
+  }
+  .btn {
+    font-size: 4vw;
+    width: 60vw;
+    margin-left: 0;
+    margin-top: 4vw;
+    padding: 10px;
+  }
+  .closeMenu {
+    font-size: 5vw;
+    left: 0;
+  }
+
+  .mousemove, .mouse {
+    width: 60px;
+    height: 60px;
+  }
+  .mousemove h1, .mouse h4 {
+    font-size: 3vw;
+  }
+
+  .full-screen iframe {
+    width: 100vw !important;
+    height: 50vw !important;
+  }
+
+  .top-elem > h4,
+  .top-elem-1 > h4,
+  .top-elem-2 > h4 {
+    font-size: 4vw;
+  }
+  .top-elem > h1,
+  .top-elem-1 > h1,
+  .top-elem-2 > h1 {
+    font-size: 7vw;
+  }
+
+  .elem-top > h1 {
+    font-size: 7vw;
+    text-align: center;
+  }
+  .elem-heading {
+    flex-direction: column;
+    gap: 2vw;
+    padding-top: 6vw;
+  }
+  .elem-heading > h1 {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .page3 .elem-box {
+    flex-direction: column;
+    height: auto;
+    gap: 4vw;
+  }
+  .elem-box .box {
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 4vw;
+  }
+
+  .page5 video,
+  .page5 svg {
+    height: 50vw;
+    width: 100vw;
+    position: static;
+  }
+  .page5 h1,
+  .page5 p {
+    font-size: 6vw;
+    padding-top: 10vw;
+    position: static;
+    text-align: center;
+  }
+
+  .swiperdiv {
+    height: 40vh;
+    margin: 0;
+  }
+  .swiper {
+    width: 100vw;
+  }
+  .swiper-slide img {
+    width: 40vw;
+  }
+
+  #loader h3 {
+    font-size: 5vw;
+  }
+
+  .page7-top > h1 {
+    font-size: 12vw;
+    width: 100%;
+    margin-left: 0;
+  }
+}
